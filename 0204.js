@@ -1,10 +1,16 @@
 let arr = [0,2,4,3,5];
 
-let squareNumber = 0;
+let result = makeSquares(arr);
 
-for(i = 0; i < arr.length; i++)
-{ 
-    squareNumber =  Math.pow(arr[i], 2);
-
-    alert(squareNumber);
+function makeSquares()
+{
+    for(i = 0; i < arr.length; i++)
+    {
+        let squareNumber = 0;
+    
+        squareNumber = Math.pow(arr[i], 2);
+        
+        alert(squareNumber)
+    }
 }
+
